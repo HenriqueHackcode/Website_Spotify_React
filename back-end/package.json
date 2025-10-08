@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./api/server.js"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +15,8 @@
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "mongodb": "^6.20.0",
-    "node-fetch": "^3.3.2"
+    "node-fetch": "^3.3.2",
+    "path": "^0.12.7",
+    "website_spotfy_react": "file:.."
   }
 }

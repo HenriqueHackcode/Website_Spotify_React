@@ -12,11 +12,13 @@
   "dependencies": {
     "@fortawesome/react-fontawesome": "^3.1.0",
     "axios": "^1.12.2",
+    "dotenv": "^17.2.3",
     "framer-motion": "^12.23.22",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-icons": "^5.5.0",
-    "react-router-dom": "^7.9.3"
+    "react-router-dom": "^7.9.3",
+    "website_spotfy_react": "file:.."
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",

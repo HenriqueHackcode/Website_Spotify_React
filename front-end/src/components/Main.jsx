@@ -3,7 +3,7 @@ import ItemList from './ItemList';
 import { artistArray } from '../assets/database/artists';
 import { songsArray } from '../assets/database/songs';
 
-const Main = ({ type }) => {
+const main = ({ type }) => {
   return (
     <div className="main">
       {type === 'artists' || type === undefined ? (
@@ -32,4 +32,4 @@ const Main = ({ type }) => {
   );
 };
 
-export default Main;
+export default main;
